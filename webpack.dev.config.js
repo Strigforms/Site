@@ -5,7 +5,8 @@ module.exports = {
   entry: {
     globals: './src/index.js',
     script: './src/js/script.js',
-    script2: './src/js/script2.js'
+    script2: './src/js/script2.js',
+    obras: './src/paginas/Obras/obras.js'
   },
   output: {
     filename: '[name].js',
@@ -25,7 +26,10 @@ module.exports = {
     rules: [
       {
         test: /\.(png|jpe?g|gif|svg|ttf)$/,
-        type: 'asset/resource'
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/[name][ext]'
+        }
       },
       {
         test: /\.css$/,
@@ -122,7 +126,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'Obras.html',
-      chunks: ['globals', 'script2'],
+      chunks: ['globals', 'script2', 'obras'],
       title: 'Quebec Engenharia',
       template: './src/paginas/Obras/Obras.html',
       description: 'Quebec Engenharia',

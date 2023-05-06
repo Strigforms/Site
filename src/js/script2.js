@@ -75,8 +75,9 @@ hiddenElements3.forEach((el) => observer3.observe(el))
 //menu hamburger
 const hamburger = document.querySelector('.hamburger')
 const navMenu = document.querySelector('.nav-menu')
-
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active')
-  navMenu.classList.toggle('active')
-})
+if (hamburger) {
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active')
+    navMenu.classList.toggle('active')
+  })
+}
