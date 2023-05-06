@@ -1,13 +1,5 @@
-import Teste from './assets/images/Parceiros/amaggi.png'
-
-function addImage() {
-  const img = document.createElement('img')
-  img.alt = 'Teste'
-  img.width = 300
-  img.src = Teste
-
-  const body = document.querySelector('body')
-  body.appendChild(img)
+function importAll(r) {
+  r.keys().forEach(r)
 }
 
-export default addImage
+importAll(require.context('./', true, /\.(css|scss)$/))
