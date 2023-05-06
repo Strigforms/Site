@@ -9,7 +9,15 @@ module.exports = {
     rules: [
       {
         test: /\.(png|jpg)$/,
-        use: 'asset/resource'
+        type: 'asset/resource'
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   }
