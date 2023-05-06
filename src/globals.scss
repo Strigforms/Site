@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,300,600,400italic);
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/Montserrat-Bold.ttf');
+  src: url('./assets/Montserrat-Italic.ttf');
+  src: url('./assets/Montserrat-Medium.ttf');
+  src: url('./assets/Montserrat-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.body {
+  margin: auto;
+  padding: 0;
+  max-width: 800px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+}
+
+.background {
+  // background-image: url('elementos/Background_Prancheta 1.png');
+  // background: url('elementos/Background_Prancheta 1.png');
+}
+
+.background_contato {
+  // background-image: url('elementos/Background_cadastro/Background_cadastro.png');
+  // background: url('elementos/Background_cadastro/Background_cadastro.png');
+  background-size: 100%;
+}
+
+.org_contact {
+  padding-top: 100px;
+}
+
+.rodape {
+  font-family: montserrat;
+  color: white;
+  background: rgb(11, 91, 80);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+.rodape_2 {
+  display: flex;
+}
+
+hr.linha {
+  width: 60%;
+}
+
+hr.linha2 {
+  width: 40px;
+  height: 4px;
+  background-color: rgb(238, 121, 31);
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.linha3 {
+  width: 40px;
+  height: 4px;
+  background-color: rgb(238, 121, 31);
+  border: none;
+}
+
+hr.linha4 {
+  width: 40px;
+  margin-top: 10px;
+  height: 4px;
+  background-color: rgb(238, 121, 31);
+  border: none;
+}
+
+hr.linha5 {
+  width: 80px;
+  height: 4px;
+  background-color: rgb(0, 90, 80);
+  border: none;
+  margin-top: 10px;
+}
+
+hr.linha6 {
+  width: 80px;
+  height: 4px;
+  background-color: rgb(238, 121, 31);
+  border: none;
+  margin-top: 10px;
+}
