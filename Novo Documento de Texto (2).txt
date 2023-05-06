@@ -1,0 +1,748 @@
+display: flex;
+    height: auto;
+    min-height: 150px;
+    width: 40%;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: rgb(210, 210, 210);
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 2px solid black;
+
+.conteudo_contato {
+    min-width: 200px;
+    min-height: auto;
+    display: inline-block;
+    text-align: justify;
+    align-content: right;
+    justify-content: right;
+    align-items: right;
+    vertical-align: right;
+}
+
+#contact {    
+    padding: 1%;
+    margin: 1% 0;
+    box-shadow: 1px 1px 2px #999, 1px 1px 5px rgb(29, 29, 29);
+    background: white;
+    overflow: hidden;
+    width: 30%;
+    min-width: 300px;
+    border-radius: 15px;
+}
+
+fieldset {
+    font-family: Montserrat;
+    border-radius: 8px;
+}
+
+.contact-submit {
+    border: none;
+    padding: 11px 21px; 
+    vertical-align: middle; 
+    background: #e5471f; 
+    color: white; 
+    border-radius: 10px; 
+    font-size: 20px; 
+    font-family: Montserrat;
+    text-decoration: none;
+    width: 170px;
+    box-shadow: 3px 3px 0px rgb(254, 1, 1);
+}
+
+.contact-submit:active {
+    box-shadow: 0 0 0 0 rgb(254, 1, 1), inset 3px 3px 0px rgb(254, 1, 1);
+    transform: translate(2px, 2px);
+}
+
+.enviar {
+    width: 30px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#mensagem {
+    width: 250px;
+    height: 100px;
+}
+
+___________________________________________________________________________________________
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,300,600,400italic);
+
+@font-face{
+    font-family: Montserrat;
+    src: url(Montserrat-regular.ttf);
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_contato {
+    min-width: 200px;
+    min-height: auto;
+    display: inline-block;
+    text-align: justify;
+    align-content: right;
+    justify-content: right;
+    align-items: right;
+    vertical-align: right;
+}
+
+#contact {    
+    padding: 1%;
+    margin: 1% 0;
+    box-shadow: 1px 1px 2px #999, 1px 1px 5px rgb(29, 29, 29);
+    background: white;
+    overflow: hidden;
+    width: 30%;
+    min-width: 300px;
+    border-radius: 15px;
+}
+
+fieldset {
+    font-family: Montserrat;
+    border-radius: 8px;
+}
+
+.contact-submit {
+    border: none;
+    padding: 11px 21px; 
+    vertical-align: middle; 
+    background: #e5471f; 
+    color: white; 
+    border-radius: 10px; 
+    font-size: 20px; 
+    font-family: Montserrat;
+    text-decoration: none;
+    width: 170px;
+    box-shadow: 3px 3px 0px rgb(254, 1, 1);
+}
+
+.contact-submit:active {
+    box-shadow: 0 0 0 0 rgb(254, 1, 1), inset 3px 3px 0px rgb(254, 1, 1);
+    transform: translate(2px, 2px);
+}
+
+.enviar {
+    width: 30px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#mensagem {
+    width: 250px;
+    height: 100px;
+}
+
+.img_capa {
+    width: 100%;
+    height: 450px;
+    margin: 0%;
+}
+
+.img_capa_2 {
+    width: 100%;
+    height: 450px;
+    margin: -5%;
+}
+
+.borda {
+    margin: 0;
+}
+
+.menu {
+    background: rgb(11, 91, 80);
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    min-width: auto;
+}
+
+.logo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    display: flex;
+    width: 7%;
+    min-width: 15%;
+    margin: auto;
+}
+
+.menu_itens {
+    font-family: Montserrat;
+    font-size: 13px;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    align-content: right;
+    align-items: right;
+    width: 75%;
+    padding-right: 3%;  
+}
+
+.disque {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    padding-right: 1%;
+}
+
+.tradutor {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    padding-right: 1%;
+}
+
+a {
+    font-family: Montserrat;
+    color:rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(249, 237, 213);
+}
+
+.conteudo {
+    margin: -20px;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+.content {
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 47.5%;
+    width: 100%;
+    overflow: hidden;
+    top: 45%;
+    left: 53.4%;
+}
+
+.navigation {
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    bottom: 45%;
+    left: 45%;
+    display: flex;
+}
+
+.bar {
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .5s ease;
+}
+
+.bar:hover {
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide {
+    width: 25%;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+.sobre {
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 8%;
+}
+
+.alinhamento {
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+h5 {
+    display: flex;
+    font-family: Montserrat;
+    color: rgb(70, 70, 70);
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#empresa {
+    width: 30%;
+}
+
+#servicos {
+    width: 70%;
+}
+
+.seta {
+    display: block;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+h1 {
+    font-family: Montserrat;
+    color: rgb(70, 70, 70);
+}
+
+h4 {
+    font-family: Montserrat;
+    color: rgb(110, 110, 110);
+}
+
+.projetos {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    display: inline-block;
+    width: 150px;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.conheca {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    background-color: rgb(233, 233, 233);
+    padding-top: 2%;
+}
+
+.img_conheca {
+    width: 80%;
+}
+
+.objetivos {
+    padding-top: 4%;
+}
+
+.parceiros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.logos {
+    display: flex;
+    padding-right: 1%;
+    padding-top: 2%;
+}
+
+.clientes {
+    padding-bottom: 2%;
+    margin-top: -3px;
+}
+
+.rodape {
+    background: rgb(11, 91, 80);
+    display: inline-block;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.redes_sociais {
+    width: 4%;
+    height: 4%;
+    padding-left: 2%;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+h3 {
+    color: white;
+    font-family: Montserrat;
+    padding-left: 2%;
+}
+
+.selo {
+    font-family: Montserrat;
+    display: flex;
+    filter: invert(100%);
+    padding-bottom: 5%;
+    padding-left: 22%;
+}
+
+.ali {
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#siga {
+    padding-top: 2%;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.button {
+    padding: 11px 21px; 
+    vertical-align: middle; 
+    background: #2D888F; 
+    color: white; 
+    border-radius: 6px; 
+    font-size: 20px; 
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+#contact {    
+    padding: 1%;
+    margin: 1% 0;
+    box-shadow: 1px 1px 2px #999, 1px 1px 5px rgb(29, 29, 29);
+    background: white;
+    overflow: hidden;
+    width: 30%;
+    min-width: 300px;
+    border-radius: 15px;
+}
+
+#mensagem {
+    width: 250px;
+    height: 100px;
+}
+
+h2#introducao{
+    width: 100%;
+    justify-content: right;
+    font-family: Montserrat;
+    font-weight: 100;
+    align-items: center;
+    display: block;
+    padding-right: 10%;
+}
+
+.portfolio {
+    width: 150px;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.galeria {
+    height: auto;
+    min-height: 150px;
+    width: 45%;
+    background-color: rgb(210, 210, 210);
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    margin: 5px 10px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.energia {
+    align-items: center;
+    align-content: center;
+    padding-bottom: 3%;
+}
+
+h2 {
+    font-family: Montserrat;
+    color: rgb(110, 110, 110);
+}
+
+.descricao {
+    display: flex;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.h4#descricao {
+    font-family: Montserrat;
+    color: #999;
+}
+
+h3#desc {
+    font-family: Montserrat;
+    color: rgb(103, 103, 103);
+    text-align: left;
+    display: flex;
+}
+
+h3#sobre {
+    font-family: Montserrat;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    padding-left: 2%;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+}
+
+.classificacao {
+    padding-top: 3%;
+    width: 300px;
+}
+
+.info {
+    width: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h2#desc {
+    font-family: Montserrat;
+    color: rgb(74, 74, 74);
+}
+
+.titulo {
+    padding-top: 1%;
+}
+
+.carac {
+    display: block;
+    width: 85%;
+    padding-left: 3%;
+}
+
+.obras {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.a1 {
+    display: flex;
+    width: 85%;
+}
+
+.a2 {
+    display: flex;
+    width: 100%;
+}
+
+.serv {
+    width: 60%;
+    min-width: 100px;
+}
+
+.descricao2 {
+    display: flex;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.obras2 {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.galeria2 {
+    height: auto;
+    min-height: 150px;
+    background-color: rgb(210, 210, 210);
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    margin: 5px 10px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+.carac2 {
+    display: block;
+    width: 85%;
+}
+
+h4#projeto {
+    text-align: justify;
+}
+
+.imagem_obra {
+    width: 25%;
+}
+
+.galeria_obras {
+    display: flex;
+    width: 90%;
+}
+
+<div class="galeria">
+                <div class="titulo">
+                    <h2 id="desc">UFV Verde Vale III</h2>
+                </div>
+                
+                <div class="descricao">   
+                    <div>
+                        <a href="Obra_1.html"><img class="portfolio" src="elementos/Elementos_site-25.png"></a>
+                    </div>
+                    <div class="carac">
+                        <div>
+                            <h3 id="desc">Potência: 14,3 MW</h3>
+                        </div>
+                        <div>
+                            <h3 id="desc">Localização: Guanambi - BA</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info">
+                    <a href="Obra_1.html"><img class="info" src="elementos/Elementos_site-44.png"></a>
+                </div>
+            </div>
+
+            <div class="galeria">
+                <div class="titulo">
+                    <h2 id="desc">Parque Eólico Morro do Chapéu do Sul</h2>
+                </div>
+                
+                <div class="descricao">   
+                    <div>
+                        <a href="Obra_2.html"><img class="portfolio" src="elementos/Elementos_site-25.png"></a>
+                    </div>
+                    <div class="carac">
+                        <div>
+                            <h3 id="desc">Potência: 172MW</h3>
+                        </div>
+                        <div>
+                            <h3 id="desc">Localização: Morro do chapéu do sul</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info">
+                    <a href="Obra_2.html"><img class="info" src="elementos/Elementos_site-44.png"></a>
+                </div>
+            </div>
+
+
+<div class="obras" align="center">
+            <div class="galeria">
+                <div class="titulo">
+                    <h2 id="desc">PCH TESTE</h2>
+                </div>
+                
+                <div class="descricao">   
+                    <div>
+                        <a href="Obra_1.html"><img class="portfolio" src="elementos/Elementos_site-24.png"></a>
+                    </div>
+                    <div class="carac">
+                        <div>
+                            <h3 id="desc">Potência: 5wts</h3>
+                        </div>
+                        <div>
+                            <h3 id="desc">Localização: Jaíba - MG</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info">
+                    <a href="Obra_1.html"><img class="info" src="elementos/Elementos_site-44.png"></a>
+                </div>
+            </div>
+
+            <div class="galeria">
+                <div class="titulo">
+                    <h2 id="desc">PCH TESTE</h2>
+                </div>
+                
+                <div class="descricao">   
+                    <div>
+                        <a href="Obra_1.html"><img class="portfolio" src="elementos/Elementos_site-24.png"></a>
+                    </div>
+                    <div class="carac">
+                        <div>
+                            <h3 id="desc">Potência: 5wts</h3>
+                        </div>
+                        <div>
+                            <h3 id="desc">Localização: Jaíba - MG</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info">
+                    <a href="Obra_1.html"><img class="info" src="elementos/Elementos_site-44.png"></a>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,29 @@
+    var button = window.document.getElementById('botao')
+    botao.addEventListener('mouseenter', mouseenter)
+    botao.addEventListener('mouseout', mouseout)
+    botao.addEventListener('click', data)
+
+    function mouseenter() {
+        button.style.background = 'green'
+    }
+    function mouseout() {
+        button.style.background = 'rgb(229, 71, 31)'
+    }
+
+    function data() {
+        if (contact.nome.value == 0 || contact.telefone.value == 0 || contact.email.value == 0) {
+            window.alert('Preencha os campos corretamente para entrarmos em contato com você.')
+        } else {
+            window.alert(`Os dados de ${contact.name.value} do email ${contact.email.value} e telefone ${contact.telefone.value} foram envidos corretamente!`)
+        }
+    }
+
+    function recepcao() {
+        var userxp = window.prompt('Digite o seu nome para ter uma experiência mais agradável.')
+        var msg = window.document.getElementById('introducao')
+        if (userxp != null) {
+            introducao.innerHTML = `Bem vindo(a) ${userxp} <br> Como podemos te ajudar?`
+        } else {
+            introducao.innerHTML = `Bem vindo(a) <br> Como podemos te ajudar?`
+        }
+    }

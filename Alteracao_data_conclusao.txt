@@ -1,0 +1,13 @@
+<div>
+                        <div class="descricao2" align="right">
+                            <strong>Data de conclusão</strong>
+                        </div>
+                        <div class="data">
+                            <div class="calendario">
+                                <img src="elementos/Elementos_site-39.png">
+                            </div>
+                            <div class="descricao3">
+                                <strong>2018</strong>
+                            </div>
+                        </div>
+                    </div>

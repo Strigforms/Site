@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,300,600,400italic);
+
+@font-face{
+    font-family: Montserrat;
+    src: url(Montserrat-regular.ttf);
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borda {
+    margin: 0;
+}
+
+.menu {
+    background: rgb(11, 91, 80);
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    min-width: auto;
+}
+
+.logo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    display: flex;
+    width: 10%;
+    min-width: 35%;
+    margin: auto;
+}
+
+.menu_itens {
+    font-family: Montserrat;
+    font-size: 13px;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    align-content: right;
+    align-items: right;
+    width: 75%;
+    padding-right: 3%;    
+}
+
+.disque {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    padding-right: 1%;
+}
+
+.tradutor {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    padding-right: 1%;
+}
+
+a {
+    font-family: Montserrat;
+    color:rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(249, 237, 213);
+}
+
+.conteudo {
+    margin: -20px;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+.content {
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: -3.45%;
+    height: 47.5%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 53.4%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    bottom: 43%;
+    left: 45%;
+    display: flex;
+}
+
+.bar {
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .5s ease;
+}
+
+.bar:hover {
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide {
+    width: 25%;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+.sobre {
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    padding-top: 30%;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.alinhamento {
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+h5 {
+    display: flex;
+    font-family: Montserrat;
+    color: rgb(70, 70, 70);
+    width: 30%;
+    text-align: left;
+}
+
+.seta {
+    display: block;
+}
+
+h1 {
+    font-family: Montserrat;
+    color: rgb(70, 70, 70);
+}
+
+h4 {
+    font-family: Montserrat;
+    color: rgb(70, 70, 70);
+}
+
+.conheca {
+    padding-top: 2%;
+    padding-left: 10%;
+    width: 60%;
+    border: 1px solid black;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+#contact {    
+    padding: 1%;
+    margin: 1% 0;
+    box-shadow: 1px 1px 2px #999, 1px 1px 5px rgb(29, 29, 29);
+    background: white;
+    overflow: hidden;
+    width: 30%;
+    min-width: 300px;
+    border-radius: 15px;
+}

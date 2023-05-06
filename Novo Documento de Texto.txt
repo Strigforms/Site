@@ -1,0 +1,5 @@
+Entendemos o ESG como um conjunto de práticas que impactam nos resultados entregues pela empresa. Por essa razão implementamos as práticas em nosso modelo estrutural, tornando o nosso trabalho mais acertivo e ao mesmo tempo influenciando de forma positiva as comunidades onde estão localizadas nossas obras.
+
+<div class="image_alinhamento_esg">
+                        <img height="300px" src="elementos/Elementos_fotos-03.png" alt="Imagem_4">
+                    </div>

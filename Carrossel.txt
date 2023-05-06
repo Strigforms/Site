@@ -1,0 +1,27 @@
+<!--<div class="content">
+        <div class="slides">
+            <input class="input" type="radio" name="slide" id="slide1" checked>
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+
+            <div class="slide s1">
+                <img src="elementos/Elementos_site-26.png" alt="Imagem_1">
+            </div>
+            <div class="slide">
+                <img src="elementos/Elementos_site-27.png" alt="Imagem_2">
+            </div>
+            <div class="slide">
+                <img src="elementos/Elementos_site-28.png" alt="Imagem_3">
+            </div>
+            <div class="slide">
+                <img src="elementos/Elementos_site-29.png" alt="Imagem_4">
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+    </div>-->

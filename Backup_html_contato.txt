@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--LINK DO CSS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <!--
+    <link href="Style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="elementos/Elementos_site-25.png">
+    <meta charset="UTF-8">
+    -->
+    <title>Quebec Engenharia</title>
+</head>
+
+<!--MENU SUPERIOR -->
+<body onload="" class="borda">
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <a href="Index.html"><img src="Elementos/logo.png"; width="80%"></a>
+            </div>
+            <div class="menu_itens">
+                <a id="menu" href="Index.html">HOME</a>
+                <a id="menu" href="Sobre.html">INSTITUCIONAL</a>
+                <div id="menu" class="dropdown">
+                    <a id="menu">ATUAÇÃO</a>
+                    <div class="submenu">
+                        <a href="Energia.html">ENERGIA RENOVÁVEL</a>
+                        <a href="Transmissao.html">TRANSMISSÃO</a>
+                        <a href="Infra.html">INFRAESTRUTURA</a>
+                        <a href="Industrias.html">INDÚSTRIA</a>
+                        <a href="Mineracao.html">MINERAÇÃO</a>
+                    </div>
+                </div>
+                <a id="menu" href="Parceiros.html">CLIENTES</a>
+                <a id="menu" href="ESG.html">ESG</a>  
+                <div id="menu" class="dropdown">
+                    <a id="menu">CONTATO</a>
+                    <div class="submenu">
+                        <a href="Contato.html">FALE CONOSCO</a>
+                        <a href="https://quebec.gupy.io/">TRABALHE CONOSCO</a>
+                    </div>
+                </div>
+            </div>
+            <div class="disque">
+                <a href="https://canal.ouvidordigital.com.br/quebec"><img src="elementos/Elementos_site-16.png"></a>    
+            </div>
+            <div class="tradutor">
+                <a href="Site_eng/Energia_eng.html"><img src="elementos/Elementos_site-15.png"></a>    
+            </div>            
+        </div>
+    </header>
+    
+    <!--CONTEÚDO-->
+    <div class="background">
+        <div class="content">
+            <img class="img_capa" src="elementos/Elementos_site-48.png">
+        </div>
+        
+        <div class="text_contato">
+            <div class="font_contato">
+                <Strong>A Quebec Engenharia quer ouvir você!</Strong><br><br>
+                Os feedbacks dos nossos clientes e parceiros são essenciais para o aprimoramento da empresa. 
+            </div>
+        </div> 
+        
+        <div align="center">      
+            <div class="conteuto_contato">        
+                <!--FORMULARIO DE ENVIO-->
+                <div class="container" id="form">
+                   
+                </div>
+                <div class="espac2">
+                    <form id="contact2" method="POST">
+                        <div class="maps2">
+                            <div class="font3">
+                                Nossa Localização
+                                <hr style="background:rgb(0, 90, 80); color:transparent; height:7px; border:0;">
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.096064378556!2d-43.95961228525548!3d-19.962461886585512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ec990ed12b%3A0x7342da24f8785a19!2sR.%20Paulo%20Freire%20de%20Ara%C3%BAjo%2C%2068%20-%20Estoril%2C%20Belo%20Horizonte%20-%20MG%2C%2030494-280!5e0!3m2!1spt-BR!2sbr!4v1677788724389!5m2!1spt-BR!2sbr" width="600" height="450" style="border:3px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--RODAPE-->
+    <div class="rodape">
+        <div class="rodape_2">
+            <div class="fale_conosco">
+                <div class="acesse" align="center">
+                    <img class="imagem_redes" src="elementos/Elementos_site-41.png">
+                </div>
+                <div>
+                    <ul>
+                        <li>Rua Paulo Freire de Araújo, 68 - Estoril</li>
+                        Belo Horizonte / MG - 30494-280<br><br>
+                        <li>comunicacao@quebecengenharia.com.br</li><br>
+                        <li>+55 (31) 3297.0833</li><br>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="redes">
+                <div class="acesse">
+                    <img class="imagem_redes" src="elementos/Elementos_site-42.png">
+                </div>
+                <div class="ali_rede" align="center">
+                    <div>
+                        <a href="index.html"><img class="redes_sociais" src="elementos/Elementos_site-11.png" height="90px"></a>
+                    </div>
+                    <div>
+                        <a href="index.html"><img class="redes_sociais" src="elementos/Elementos_site-12.png" height="90px"></a>
+                    </div>
+                    <div>
+                        <a href="index.html"><img class="redes_sociais" src="elementos/Elementos_site-13.png" height="90px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="linha" color="gray">
+        <div class="direitos">
+        Direitos reservados Quebec Engenharia &copy;
+        </div>
+    </div>
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>

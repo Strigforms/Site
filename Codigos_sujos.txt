@@ -1,0 +1,123 @@
+<!--
+        <div class="responsabilidade_social">
+            <div class="alinhamento_titulo">
+                <h1 class="titulo4">RESPONSABILIDADE SOCIAL<hr class="linha3"></h1>
+            </div>
+            <div class="alinhamento4">
+                <div class="sobre_esg">
+                    <div class="image_hands">
+                        <img width="600px" src="elementos/Elementos_site-53.png">
+                    </div>
+                    
+                    <div class="intro_resp">
+                        <div class="texto_resp">
+                            A Quebec apoia instituições carentes das comunidades onde está inserida. Através de um projeto de mapeamento, identifica aquelas que atendam a crianças, jovens e idosos, enfermos ou dependentes químicos.
+                            <br><br>
+                            Atuando pontualmente, busca promover melhorias do espaço físico da instituição beneficiada, por meio de reformas estruturais ou com a construção de novas edificações.
+                            <br><br>
+                            Além disso, realiza campanhas para arrecadação de roupas, cobertores e utensílios diversos, possibilitando parcerias com outras empresas de infraestrutura, interessadas também na promoção de assistência e responsabilidade social.
+                            <br><br>
+                            A Quebec incentiva seu colaborador direto a participar dessa iniciativa e a ter sempre presentes o pensamento e a atitude de auxiliar o seu semelhante, entendendo que sua filosofia e missão institucionais também têm esse significado.
+                            <br><br>
+                            <strong>Promover o bem gera uma corrente de amor que se expande e se multiplica.</strong>
+                            <br><br>
+                            <i>“Por vezes sentimos que aquilo que fazemos não é senão uma gota de água no oceano. Mas o mar seria menor se faltasse uma gota.”</i>
+                            <br><br>
+                            <strong><i>Madre Teresa de Calcutá</i></strong>
+                        </div>
+                        <div class="seta_home_esg">
+                            <img height="30px" src="elementos/Elementos_site-69.png" alt="seta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+------------------------------------------------------------------------------------------
+
+<div class="text_contato">
+                <div class="font_contato">
+                    <Strong>A Quebec Engenharia quer ouvir você!</Strong>
+                    <br><br>
+                    <div class="feedback">
+                        Mais que uma empresa, a Quebec é um time e entende que os feedbacks dos clientes e parceiros são essenciais para o aprimoramento da empresa. <br><br>Venha fazer parte desse time incrível.
+                        <div>
+                            <img class="seta_contato" src="elementos/Elementos_site-69.png" alt="seta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+------------------------------------------------------------------------------------------
+//animação dos dados da quebec
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('dado1-animation')
+        }
+    });
+});
+
+observer.observe(document.querySelector('.dado1'));
+
+//menu que fica visivel
+window.addEventListener('scroll', function(){
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('sticky', window.scrollY > 0);
+})
+
+//Carrossel
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval( function(){
+    nextImage();
+}, 8000)
+
+function nextImage(){
+    count++;
+    if(count>4){
+        count = 1;
+    }
+
+    document.getElementById("radio"+count).checked = true;
+}
+
+
+var contador = 1;
+setInterval( function() {
+    document.getElementById('slide' + contador).checked = true;
+    contador ++;
+
+    if(contador > 4) {
+        contador = 1;
+    }
+}, 3000);
+
+//Formulário de envio de dados
+function enviarEmail() {
+    var nome = document.querySelector("#nome").value;
+    var email = document.querySelector("#email").value;
+    var telefone = document.querySelector("#telefone").value;
+    var mensagem = document.querySelector("#mensagem").value;
+    var body = `
+    Nome
+    ${nome}
+
+    Mensagem
+    ${mensagem}
+    
+    Telefone
+    ${telefone}
+
+    E-mail
+    ${email}
+    `
+    var link = "mailto:alan.alcantara@quebecengenharia.com.br"
+             + "?subject=" + encodeURIComponent("Contato site")
+             + "&body=" + encodeURIComponent(body)
+    ;
+    
+    window.location.href = link;
+    return
+}
+

@@ -1,0 +1,35 @@
+<div id="intro" >
+                <h1 align="center">MISSÃO<hr class="linha2" align="center"></h1>
+                <div class="sobre">
+                    <img class="missao" src="elementos/Elementos_site-21.png">
+                    <div class="intro">
+                        Contribuir para a realização de projetos bem-sucedidos com impacto positivo na sociedade.
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div id="intro">
+                <h1 align="center">VISÃO<hr class="linha2" align="center"></h1>
+                <div class="sobre">
+                    <div class="intro">
+                        Ser referência, ser reconhecida por valores positivos, ser sustentável.
+                    </div>
+                    <img class="visao" src="elementos/Elementos_site-22.png">
+                </div>
+            </div>
+            <br><br>
+            <div id="intro">
+                <h1 align="center">VALORES<hr class="linha2" align="center"></h1>
+                <div class="sobre">
+                    <img class="valores" src="elementos/Elementos_site-23.png">
+                    <div class="intro">
+                        A atuação da Quebec, de seus colaboradores e dos que agem em seu nome, devem sempre pautar-se na aplicação cotidiana dos seguintes valores:
+                        <br><br>
+                        - Ética<br>
+                        - Transparência<br>
+                        - Comprometimento<br>
+                        - Excelência<br>
+                        - Integridade
+                    </div>
+                </div>
+            </div>

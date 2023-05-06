@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--LINK DO CSS -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compasso Digital - Marketing e design</title>    
+    <style>
+       
+    </style>
+</head>
+
+<!--MENU SUPERIOR -->
+<body onload="recepcao()" class="borda">
+    <header>
+            <div class="menu">
+                <div class="logo">
+                    <a href="index.html"><img src="imagens/logo.png"; width="80%"></a>
+                </div>
+            
+                <div class="menu_itens">
+                    <a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="link_01.html">SOBRE</a>&nbsp;&nbsp;&nbsp;&nbsp;  
+                    <a href="Contato.html">CONTATO</a>
+                    
+                </div>      
+            </div>
+    </header>
+
+    <!--CONTEUDO -->
+    <div align="center">
+        <div class="imagem">
+            <h2 id="introducao"></h2>
+        </div>
+        
+        <div class="conteudo">
+            <img id="imagemconteudo" src="imagens/imagem_01.svg" width="60%">
+            
+            <div id="textoconteudo">
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab id sapiente, suscipit doloribus numquam error eius voluptatibus minima quasi tempore blanditiis necessitatibus quos soluta autem natus cupiditate facere deleniti consectetur!</h2>
+                <!--<img src="imagens/Lorem_ipsum_Prancheta 1.png" width="60%">-->
+            </div>
+        </div>    
+            
+        <div class="icones">
+            <div>
+                <img src="imagens/icone_1.png"; height="150px">    
+                <img src="imagens/icone_2.png"; height="150px">    
+                <img src="imagens/icone_3.png"; height="150px">
+            </div>
+
+            <div>
+                <img src="imagens/icone_4.png"; height="150px">
+                <img src="imagens/icone_7.png"; height="150px">
+                <img src="imagens/icone_8.png"; height="150px">       
+            </div>
+        </div>   
+
+        
+        <div>
+            <h2 class="tittle">
+                PORTFÓLIO
+            </h2>
+        </div>
+        <div class="portfolio">
+            <div class="portfolio_2">
+                <a href="link_01.html"><img id="imagem_1" src="imagens/portfolio_imagens_1.png"; height="150px" class="img_2"></a>  
+            </div>
+            <div class="portfolio_2"> 
+                <a href="link_01.html"><img ig="imagem_2" src="imagens/portfolio_imagens_2.png"; height="150px" class="img_2"></a>
+            </div>
+            <div class="portfolio_2">   
+                <a href="link_01.html"><img ig="imagem_3" src="imagens/portfolio_imagens_3.png"; height="150px" class="img_2"></a>
+            </div>
+            <div class="portfolio_2">
+                <a href="link_01.html"><img ig="imagem_4" src="imagens/portfolio_imagens_4.png"; height="150px" class="img_2"></a>
+            </div>
+            <p>
+            <div class="portfolio_2">
+                <a href="link_01.html"><img ig="imagem_5" src="imagens/portfolio_imagens_5.png"; height="150px" class="img_2"></a>  
+            </div>
+            <div class="portfolio_2"> 
+                <a href="link_01.html"><img ig="imagem_6" src="imagens/portfolio_imagens_6.png"; height="150px" class="img_2"></a>
+            </div>
+            <div class="portfolio_2">   
+                <a href="link_01.html"><img ig="imagem_7" src="imagens/portfolio_imagens_7.png"; height="150px" class="img_2"></a>
+            </div>
+            <div class="portfolio_2">
+                <a href="link_01.html"><img ig="imagem_8" src="imagens/portfolio_imagens_8.png"; height="150px" class="img_2"></a>
+            </div>
+            </p>       
+        </div>
+        <div class="parceiros">
+            <div>
+                <img src="imagens/parceiros_1.png"; height="100px">&nbsp;&nbsp;&nbsp;&nbsp;   
+                <img src="imagens/parceiros_2.png"; height="100px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="imagens/parceiros_3.png"; height="100px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="imagens/parceiros_4.png"; height="100px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="imagens/parceiros_5.png"; height="100px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="imagens/parceiros_6.png"; height="100px">&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div> 
+
+        
+        <footer id="area" class="rodape" style="height: 90px;">
+            <div>
+                &copy; Alan Alcântara
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+A empresa destaca-se pelo elevado apuro técnico, o cumprimento rigoroso dos cronogramas de obra e o comprometimento com os clientes na busca dos melhores resultados para os projetos dos quais participa. Princípios e valores fortes, estabelecidos e respeitados continuamente, aliados a uma cultura que prioriza o aperfeiçoamento, têm resultado em alto grau de fidelização de seus clientes e parceiros.
+
+A Quebec tem um modelo sólido de governança, cujos princípios básicos estabelecem diretrizes que asseguram a confiança entre todos os envolvidos em seus processos organizacionais, sejam eles gestores, colaboradores, fornecedores, investidores, credores, órgãos públicos e a comunidade impactada por suas ações.

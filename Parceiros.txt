@@ -1,0 +1,25 @@
+<div class="parceiros" align="center">
+                <img class="logos" src="parceiros/ipiranga.png" height="90px">
+                <img class="logos" src="parceiros/PETROBRAS.png" height="90px">
+                <img class="logos" src="parceiros/mais_parceiros-06.png" height="50px">
+                <img class="logos" src="parceiros/teste.png" height="90px">
+                <img class="logos" src="parceiros/cemig.png" height="90px">
+                <img class="logos" src="parceiros/cenibra.png" height="90px">
+                <img class="logos" src="parceiros/esso.png" height="90px">
+                <img class="logos" src="parceiros/enel.png" height="90px">
+                <img class="logos" src="parceiros/energisa.png" height="90px">
+                <img class="logos" src="parceiros/cesama-1.png" height="90px">
+            </div>
+            
+            <div class="parceiros" align="center">
+                <img class="logos" src="parceiros/brio-gold.png" height="90px">
+                <img class="logos" src="parceiros/gunhaes-energia.png" height="90px">
+                <img class="logos" src="parceiros/inxu.png" height="90px">
+                <img class="logos" src="parceiros/mais_parceiros-02.png" height="40px">
+                <img class="logos" src="parceiros/mais_parceiros-04.png" height="40px">
+                <img class="logos" src="parceiros/cbtu.png" height="90px">
+                <img class="logos" src="parceiros/Leagold.png" height="90px">
+                <img class="logos" src="parceiros/light.png" height="90px">
+                <img class="logos" src="parceiros/magotteaux.png" height="90px">
+                <img class="logos" src="parceiros/mbac.png" height="90px">
+            </div>

@@ -1,0 +1,14 @@
+<div class="espac2">
+                    <form id="contact2" method="POST">
+                        <div class="maps2">
+                            <div class="font3">
+                                Nossa Localização
+                                <hr style="background:rgb(0, 90, 80); color:transparent; height:7px; border:0;">
+                            </div>
+                            <div class="maps_contact">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.096064378556!2d-43.95961228525548!3d-19.962461886585512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ec990ed12b%3A0x7342da24f8785a19!2sR.%20Paulo%20Freire%20de%20Ara%C3%BAjo%2C%2068%20-%20Estoril%2C%20Belo%20Horizonte%20-%20MG%2C%2030494-280!5e0!3m2!1spt-BR!2sbr!4v1677788724389!5m2!1spt-BR!2sbr" width="600" height="450" style="border:3px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </form>
+                </div>

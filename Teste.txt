@@ -1,0 +1,121 @@
+//Animacao de conteudo
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('showleft');
+        }
+        
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hiddenleft')
+hiddenElements.forEach((el) => observer.observe(el));
+
+const observer2 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('showup');
+        }
+        
+    });
+});
+
+const hiddenElements2 = document.querySelectorAll('.hiddenup')
+hiddenElements2.forEach((el) => observer2.observe(el));
+
+const observer3 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('showright');
+        }
+
+    });
+});
+
+const hiddenElements3 = document.querySelectorAll('.hiddenright')
+hiddenElements3.forEach((el) => observer3.observe(el));
+
+Ao longo do tempo a empresa se tornou referência no mercado de energia renovável por sua capacidade de realizar obras de alta complexidade e obter excelentes resultados. Seus resultados são validados pela satisfação dos nossos clientes e o selos de qualidade ISO que foram adquirindo ao longo dos anos com seu trabalho de extrema qualidade.
+
+.sobre6 {
+    position: relative;
+    display: flex;
+    background-position: center center;
+    margin-bottom: auto;
+    background-image: url('elementos/Elementos_site-75.png');
+    background-size: 100%;
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+}
+
+
+elementos/Elementos_site-18.png
+
+<div class="certificacoes_quebec">
+            <div class="saude_seguranca">
+                <div class="qualidade_blank3">
+                    
+                </div>
+                <div class="qualidade_image">
+                    <img height="420px" src="elementos/Elementos_site_2-11.png" alt="seta">
+                </div>
+                <div class="qualidade_text">
+                    <div class="qualidade_texto_diag">
+                        <div class="tittle_sobre_qualidade">
+                            <div class="iso_tittle_saude">
+                                <strong>SAÚDE E SEGURANÇA</strong><hr class="linha2">
+                            </div>
+                        </div>
+                        <div class="meioambiente_text2">
+                            Através da contínua atualização da certificação OHSAS 18.001 – Saúde e Segurança do Trabalho, a Quebec oferece um ambiente organizacional seguro e saudável, realizando campanhas de conscientização que educam, informam e previnem acidentes e doenças ocupacionais.
+                            <br><br>
+                            Atualmente contabilizam-se mais de 4.300.000 HHT (quatro milhões e trezentos mil homens/horas trabalhadas) sem acidentes graves, dado que coloca a empresa em posição de excelência no quesito Segurança do Trabalho.
+                        </div>
+                    </div>
+                    <div class="selo_qualidade_3">
+                        <img class="selo_3_esg" src="elementos/18001_saude_PB-01.png" alt="seta">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+margin-top: 2px;
+    display: block;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid blue;
+
+<!--SELO VERDE-->
+        <div class="certificacoes_quebec">
+            <div class="meio_ambiente">
+                <div class="hiddenright saude_seguranca_text">
+                    <div class="selo_qualidade_4">
+                        <img class="selo_4_esg" src="elementos/Elementos_site_2-14.png" alt="seta">
+                    </div>
+                    <div class="ambient_texto_diagramacao">
+                        <div class="tittle_sobre_qualidade">
+                            <div class="iso_tittle">
+                                <strong>SELO VERDE DE RESPONSABILIDADE SOCIOAMBIENTAL</strong>
+                                <hr class="linha2">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="meioambiente_text">
+                            <p class="text_cert">A responsabilidade socioambiental é um conceito que se refere à prática de empresas e indivíduos de considerar não apenas os impactos econômicos de suas atividades, mas também os impactos sociais e ambientais. A Quebec é uma empresa socialmente responsável e se preocupa com a sustentabilidade do meio ambiente, adotando práticas que minimizam os impactos ambientais de suas obras. Além disso, ela se preocupa com o desenvolvimento social das comunidades, por meio do apoio a projetos de educação, cultura, esporte, saúde e outros.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hiddenleft qualidade_image_amiente">
+                    <img class="image_esg_4" src="elementos/Elementos_site_2-13.png" alt="seta">
+                </div>
+            </div>
+        </div>
