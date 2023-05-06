@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: {
-    home: './src/index.js'
+    globals: './src/index.js'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -33,7 +33,11 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'styles.[contenthash].css'
     }),
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin({
+      title: 'Quebec Engenharia',
+      template: './src/paginas/index.html',
+      description: 'Quebec Engenharia'
+    })
   ],
   stats: {
     errorDetails: true

@@ -1,8 +1,11 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
   entry: {
-    home: './src/index.js'
+    globals: './src/index.js',
+    script: './src/js/script.js',
+    script2: './src/js/script2.js'
   },
   output: {
     filename: '[name].js',
@@ -34,8 +37,24 @@ module.exports = {
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin()],
-  stats: {
-    errorDetails: true
-  }
+  plugins: [
+    new CleanWebpackPlugin(),
+
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      chunks: ['globals', 'script'],
+      title: 'Quebec Engenharia',
+      template: './src/paginas/index.html',
+      description: 'Quebec Engenharia',
+      minify: false
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'barragem.html',
+      chunks: ['globals', 'script2'],
+      title: 'Quebec Engenharia',
+      template: './src/paginas/Barragem/Barragem.html',
+      description: 'Quebec Engenharia',
+      minify: false
+    })
+  ]
 }
